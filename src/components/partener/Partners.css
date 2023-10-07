@@ -1,0 +1,18 @@
+.partnersSection{
+    background: url('../../assets/images/1.webp') ;
+}
+.clientsSection{
+    background: url('../../assets//images/3.webp');
+}
+.productsSection{
+    background: url('../../assets/images/5.webp');
+}
+.partnersSection,.clientsSection,.productsSection{
+    background-position: center;
+}
+.partnersSection p,.clientsSection p{
+    line-height: 2;
+}
+.partnerImg4,.partnerImg5,.partnerImg7{
+    width: 200px !important;
+}

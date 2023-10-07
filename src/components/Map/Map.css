@@ -1,0 +1,46 @@
+.mapVideo {
+    height: 700px
+}
+
+.mapVideo video {
+    height: 100%;
+    object-fit: cover;
+}
+
+.textMapContent {
+    top: 30%;
+}
+.aboutMagus{
+    width: 50%;
+}
+.experiences {
+    padding: 20px 0px;
+    position: relative;
+}
+
+.experiences::before {
+    content: '';
+    width: 80%;
+    height: 3px;
+    background-color: var(--main-color);
+    position: absolute;
+    top: -10px;
+    left: 47%;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+}
+.experiences span,
+.experiences p {
+    color: var(--main-color);
+}
+@media (max-width:768px) {
+    .mapVideo {
+        height: 1300px !important;
+    }
+    .aboutMagus {
+        width: 100% !important;
+    }
+}
